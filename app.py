@@ -3,13 +3,13 @@ app = Flask(__name__)
 # rutas
 @app.route('/')
 def raiz():
-    titulo = "pagina inicio"
+    titulo = "Página inicio"
     return render_template('inicio.html',titulo=titulo)
 
 # ruta para nosotros
 @app.route('/nosotros')
 def nosotros():
-    titulo = "nosotros"
+    titulo = "Nosotros"
     return render_template('nosotros.html',titulo=titulo)
 
 # bloque de prueba
