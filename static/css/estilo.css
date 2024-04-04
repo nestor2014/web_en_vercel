@@ -17,7 +17,14 @@ body {
 }
 
 .card-group {
-    background-color: #3b0d66;
+    background-color: #427fa3;
+}
+
+.tipo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .h1 {
