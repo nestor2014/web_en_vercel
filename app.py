@@ -18,6 +18,12 @@ def entrenamientos():
     titulo = "Entrenamientos"
     return render_template('entrenamientos.html',titulo=titulo)
 
+# ruta para nosotros
+@app.route('/nosotrosIII')
+def nosotrosIII():
+    titulo = "Datosde21k"
+    return render_template('nosotrosIII.html',titulo=titulo)
+
 
 # bloque de prueba
 if __name__ == "__main__":
